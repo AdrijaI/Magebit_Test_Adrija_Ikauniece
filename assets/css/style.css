@@ -1,0 +1,413 @@
+@font-face {
+    font-family: icomoon;
+    src: url('../fonts/icomoon/fonts/icomoon.ttf') format('truetype');
+}
+
+body {
+    display: flex;
+    width: 1920px;
+    margin: auto;
+}
+
+#main-container {
+    width: 680px;
+    height: 1080px;
+    background-image: linear-gradient(#FFFFFF, #F2F5FA);
+}
+
+#background {
+    flex: 1;
+}
+
+.menu {
+    width: 480px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    position: relative;
+}
+
+.pineapple {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.menu  ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    color: #6A707B;
+    margin-left: 32px;
+   
+}
+
+#subscribe-container {
+    position: absolute;
+    width: 400px;
+    height: 360px;
+    top: 374px;
+    left: 140px;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 44px;
+    color: #131821;
+    margin: 0;
+}
+
+h3, input, p {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #6A707B;
+    margin-top: 18px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+p a {
+    color: #131821;
+}
+
+p a:hover {
+    color: #4066A5;
+}
+
+p a:active {
+    color: #233759;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 680px;
+}
+
+#input-field {
+    box-sizing: border-box;
+    width: 663px;
+    height: 70px;
+    margin-top: 41px;
+    margin-bottom: 35px;
+    position: relative;
+    padding-left: 40px;
+    left: -40px;
+    border-radius: 0;
+    border: 1px solid #E3E3E4;
+    border-left: solid 4px #4066A5;
+}
+
+#input-field:hover {
+    border: 1px solid #4066A5;
+    border-left: solid 4px #4066A5;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+#input-field:focus {
+    outline: none;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+#submit {
+    font-family: icomoon;
+    font-size: 14px;
+    padding: 0;
+    position: absolute;
+    left: 559px;
+    top: 170px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    color: hsla(218.6, 26.9%, 10.2%, 0.3);
+}
+
+#submit:hover {
+    color: #4066A5;
+}
+
+span {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #6A707B;
+    position: absolute;
+    top: 235px;
+    left: -30px;
+}
+
+#checkbox {
+    display: flex;
+    margin-right: 14px;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 26px;
+    width: 26px;
+}
+
+#form input[type="checkbox"]:focus {
+    background-color: #4066A5;
+}
+
+
+#icon-container {
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    top: 740px;
+    left: 140px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    border-top: 1px solid #E3E3E4;
+}
+
+#icon-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    height: 46px;
+    width: 46px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E2E3E4;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    
+}
+
+#icon-container .a {
+    margin-left: -5px;
+}
+
+#icon-container .a:hover {
+    background-color: #4267B2;
+    border-color: #4267B2;
+    color: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+#icon-container .b:hover {
+    background-color: #C13584;
+    border-color: #C13584;
+    color: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+#icon-container .c:hover {
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+    color: #FFFFFF;
+    box-shadow:0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+#icon-container .d:hover {
+    background-color: #FF0000;
+    border-color: #FF0000;
+    color: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+#icon-container .a:active {
+    background-color: #2F4A80;
+    border-color: #2F4A80;
+}
+
+#icon-container .b:active {
+    background-color: #8F2762;
+    border-color: #8F2762;
+}
+
+#icon-container .c:active {
+    background-color: #177FBF;
+    border-color: #177FBF;
+}
+
+#icon-container .d:active {
+    background-color: #CC0000;
+    border-color: #CC0000;
+}
+
+#icon-container a {
+    font-family: icomoon;
+    text-decoration: none;
+    color: hsla(218.6, 26.9%, 10.2%, 0.3);
+    height: fit-content;
+}
+
+@media  screen and (max-width: 425px) {
+
+    html {
+        width: 100%;
+    }
+    
+    body {
+        width: 100%;
+        height: 812px;
+        display: block;
+    }
+
+    div {
+        width: 100%;
+        display: block;
+    }
+    
+    #background {
+        position: absolute;
+        height: 746px;
+        overflow: hidden;
+    } 
+
+    #background img {
+        min-width: 100%;
+        height: 746px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-55%);
+        z-index: -1;
+        background: center;
+        background-size: cover;   
+        
+    }
+
+    #main-container {
+        display: block;
+        height: 66px;
+        width: 100%;
+    }
+
+    img.pineapple {
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        align-items: center;
+        margin: 10px 20px;
+        width: 90%;
+    }
+
+    .menu ul {
+        padding-left: 20px;
+    }
+
+    .menu a {
+        font-size: 14px;
+        margin-left: 16px;
+        margin-right: 5px;
+
+    }
+
+    #subscribe-container {
+        height: 370px;
+        width: 89%;
+        background-image: linear-gradient(#FFFFFF, #F2F5FA);
+        position: relative;
+        top: 164px;
+        margin: auto;
+        left: 0%;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin: 24px 20px auto;
+        padding-top: 25px;
+    }
+
+    h3 {
+        font-size: 14px;
+        line-height: 26px;
+        margin: 5px 20px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    #input-field {
+        width: 90%;
+        height: 60px;
+        left: 0px;
+        padding-left: 19px;
+        margin: 15px auto;
+    }
+
+    #submit {
+        position: absolute;
+        left: 275px;
+        top: 163px;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    
+
+    span {
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    #checkbox {
+        margin-left: 19px;
+        margin-right: 15px;
+        margin-top: -8px;
+    }
+
+    p {
+        margin-top: 9px;
+    }
+
+    #icon-container {
+        position: relative;
+        top: 69px;
+        left: 0%;
+        width: 80%;
+        margin: auto;
+    }
+
+    #icon-container div {
+        top: 20px;
+        left: -10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .menu {
+        width: 90%;
+    }
+
+    .menu ul {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #submit {
+        left: 82%;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+}
